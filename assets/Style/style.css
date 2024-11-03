@@ -8,7 +8,6 @@
   padding: 20px;
   margin: 10px;
   background-repeat: no-repeat;
-  
 }
 
 nav {
@@ -44,7 +43,6 @@ nav {
   background-size: cover;
   padding: 20px;
   margin: 10px;
-  /* background-color: ; */
 }
 
 .work {
@@ -107,7 +105,8 @@ nav {
   flex-wrap: wrap;
 }
 @media only screen and (min-width: 600px) {
-  body {
+  
+    body {
     background-color: thistle;
   }
 
@@ -117,9 +116,9 @@ nav {
     background-image: url("../../images/images/imagejum.jpg");
     background-position: center;
     background-size: cover;
-     background-color: aquamarine; 
-     padding: 200px;
-      margin: 100px; 
+    background-color: aquamarine; 
+    padding: 200px;
+    margin: 100px; 
     background-repeat: no-repeat;
     text-align: start;
   }
@@ -149,7 +148,6 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: end;
-    justify-content: end;
     gap: 60rem;
   }
 
@@ -401,6 +399,7 @@ nav {
     padding: 1rem 0;
     background-color: brown;
   }
+
   .stan {
     text-align: center;
     box-shadow: 0 4px 4px;
