@@ -104,8 +104,8 @@ nav {
   justify-content: center;
   flex-wrap: wrap;
 }
+
 @media only screen and (min-width: 600px) {
-  
     body {
     background-color: thistle;
   }
@@ -116,9 +116,9 @@ nav {
     background-image: url("../../images/images/imagejum.jpg");
     background-position: center;
     background-size: cover;
-    background-color: aquamarine; 
+    background-color: aquamarine;
     padding: 200px;
-    margin: 100px; 
+    margin: 100px;
     background-repeat: no-repeat;
     text-align: start;
   }
@@ -265,7 +265,7 @@ nav {
     width: 500px;
     height: 60px;
   }
-  
+
   .sec-six {
     margin: 5px;
     padding: 3px;
