@@ -1,0 +1,524 @@
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0 "wght" 400 "GRAD" 0 "opsz" 2;
+}
+
+.main-head {
+  background-image: url("../../images/images/imagejum.jpg");
+  background-size: contain;
+  padding: 20px;
+  margin: 10px;
+  background-repeat: no-repeat;
+}
+
+nav {
+  display: flex;
+  gap: 10rem;
+  justify-content: right;
+}
+
+.logo {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 13rem;
+  width: 100%;
+}
+
+.sec-two {
+  width: 100%;
+  height: 80%;
+  display: flex;
+}
+
+.logo img {
+  width: 45px;
+  height: 45px;
+  padding: 20px;
+  margin: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.sec-three {
+  background-image: url("../../images/images/imagesooo.jpg");
+  background-size: cover;
+  padding: 20px;
+  margin: 10px;
+}
+
+.work {
+  display: flex;
+  gap: 50rem;
+  padding: 30px;
+  margin: 20px;
+  background-color: aqua;
+}
+
+.sec-four {
+  padding: 20px;
+  margin: 10px;
+}
+
+.footer {
+  background-color: chocolate;
+  padding: 20px;
+  margin: 10px;
+}
+
+.main {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  margin: 10px;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.sec-seven img {
+  width: 200%;
+}
+
+.sec-eight img {
+  width: 50px;
+  height: 30px;
+}
+
+.sec-six img {
+  width: 90%;
+  height: 90%;
+}
+
+.sec-six {
+  padding: 20px;
+  margin: 10px;
+}
+
+.sec-five img {
+  width: 50px;
+  height: 31px;
+}
+
+.sec-five {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+@media only screen and (min-width: 600px) {
+  body {
+    background-color: yellowgreen;
+  }
+
+  .main-head {
+    width: 70vw;
+    height: 90vh;
+    background-image: url("../../images/images/imagelo.jpg");
+    background-position: center;
+    background-size: cover;
+    background-color: aquamarine;
+    padding: 200px;
+    margin: 100px;
+    background-repeat: no-repeat;
+    text-align: start;
+  }
+
+  .sec-two {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    gap: 1rem;
+    margin-left: 20px;
+  }
+
+  .who {
+    color: blue;
+  }
+
+  .nav {
+    color: black;
+  }
+
+  .footer {
+    display: flow-root;
+    margin-top: 91px;
+  }
+
+  .com {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    gap: 60rem;
+  }
+
+  .today {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15rem;
+  }
+
+  .sec-nine {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15rem;
+    margin-top: 53px;
+  }
+
+  .room {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15rem;
+    flex-direction: column;
+  }
+
+  .rom {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    gap: 1rem;
+    flex-direction: column;
+  }
+
+  .im {
+    width: 900px;
+    height: 700px;
+  }
+
+  .mic {
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 15rem;
+  }
+
+  .sec-eight img {
+    width: 500px;
+    height: 400px;
+  }
+
+  .sup {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 70px;
+  }
+
+  .sup h2,
+  p,
+  button {
+    color: brown;
+  }
+
+  .sec {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    background-image: url("./images/imaagecome.jpg");
+    margin-top: 70px;
+  }
+
+  .sec h1,
+  p {
+    color: white;
+  }
+
+  .sec-seven img {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    margin-top: 90px;
+  }
+
+  .emi {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .wwo {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10rem;
+  }
+
+  .woo {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 10rem;
+  }
+
+  .upp {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .hand {
+    display: flex;
+    justify-content: center;
+    width: 500px;
+    height: 500px;
+  }
+
+  .sec-six {
+    margin: 5px;
+    padding: 3px;
+    background-color: chocolate;
+    margin-top: 70px;
+    display: grid;
+    grid-template-columns: 65% 35%;
+  }
+
+  .bako {
+    display: flex;
+    justify-content: start;
+    align-items: flex-start;
+    grid-area: 7rem;
+    flex-direction: column;
+  }
+
+  .hoo {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .mop {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 10rem;
+  }
+
+  .pom {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 10rem;
+  }
+
+  .man {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    gap: 10rem;
+  }
+
+  .num {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .num p,
+  button {
+    color: blue;
+  }
+
+  .dis {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .miss {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+  }
+
+  .ice {
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+    box-shadow: 0 4px 4px black;
+    gap: 20rem;
+  }
+
+  .tony {
+    display: flex;
+    justify-content: center;
+    justify-items: stretch;
+    flex-direction: column;
+  }
+
+  .sec-four {
+    margin-top: 70px;
+  }
+
+  .sec-five {
+    gap: 8rem;
+  }
+
+  .img2 {
+    display: row;
+    flex-direction: row;
+    grid-template-columns: 50% 50%;
+  }
+
+  .nya {
+    display: flex;
+    flex-direction: row;
+    grid-template-columns: 50% 50%;
+  }
+
+  .ten {
+    text-align: center;
+    box-shadow: 0 4px 4px;
+    border-radius: 5px;
+    padding: 1rem 0;
+    background-color: yellowgreen;
+  }
+
+  .ben {
+    text-align: center;
+    box-shadow: 0 4px 4px;
+    border-radius: 5px;
+    padding: 1rem 0;
+    background-color: yellowgreen;
+  }
+
+  .nini {
+    text-align: center;
+    box-shadow: 0 4px 4px;
+    border-radius: 5px;
+    padding: 1rem 0;
+    background-color: yellowgreen;
+  }
+
+  .nash {
+    text-align: center;
+    box-shadow: 0 4px 4px;
+    border-radius: 5px;
+    padding: 1rem 0;
+    background-color: yellowgreen;
+  }
+
+  .stan {
+    text-align: center;
+    box-shadow: 0 4px 4px;
+    border-radius: 5px;
+    padding: 1rem 0;
+    background-color: yellowgreen;
+  }
+
+  .wag {
+    text-align: center;
+    box-shadow: 0 4px 4px;
+    border-radius: 5px;
+    background-color: yellowgreen;
+    padding: 1rem 0;
+  }
+
+  .rob {
+    text-align: center;
+    box-shadow: 0 4px 4px;
+    border-radius: 5px;
+    padding: 1rem 0;
+    background-color: yellowgreen;
+    height: 2px;
+  }
+
+  .bor {
+    text-align: center;
+    box-shadow: 0 4px 4px;
+    border-radius: 5px;
+    padding: 3rem 0;
+    background-color: yellowgreen;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+
+  .koo {
+    text-align: center;
+    box-shadow: 0 4px 4px;
+    border-radius: 5px;
+    padding: 1rem 0;
+    background-color: yellowgreen;
+  }
+
+  .kuu {
+    text-align: center;
+    box-shadow: 0 4px 4px;
+    border-radius: 5px;
+    padding: 1rem 0;
+    background-color: yellowgreen;
+  }
+
+  .kuo {
+    text-align: center;
+    box-shadow: 0 4px 4px;
+    border-radius: 5px;
+    padding: 1rem 0;
+    background-color: yellowgreen;
+  }
+
+  .spa {
+    text-align: center;
+    box-shadow: 0 4px 4px;
+    border-radius: 5px;
+    padding: 1rem 0;
+    background-color: yellowgreen;
+    gap: 1rem;
+    justify-content: space-between;
+  }
+
+  .spaa {
+    text-align: center;
+    box-shadow: 0 4px 4px;
+    border-radius: 5px;
+    padding: 1rem 0;
+    background-color: yellowgreen;
+    margin-top: 80px;
+    margin-bottom: 80px;
+  }
+
+  .spk {
+    text-align: center;
+    box-shadow: 0 4px 4px;
+    border-radius: 5px;
+    padding: 1rem 0;
+    background-color: yellowgreen;
+  }
+
+  .spu {
+    text-align: center;
+    box-shadow: 0 4px 4px;
+    border-radius: 5px;
+    padding: 1rem 0;
+    background-color: yellowgreen;
+  }
+
+  .you {
+    box-shadow: 0 4px 4px;
+    border-radius: 5px;
+    margin-top: 20%;
+    padding: 1rem;
+    background-color: yellowgreen;
+    margin-bottom: 20px;
+  }
+
+  .your {
+    box-shadow: 0 4px 4px;
+    border-radius: 5px;
+    margin-top: 20%;
+    padding: 1rem;
+    background-color: yellowgreen;
+    margin-bottom: 20px;
+  }
+
+  .yours {
+    box-shadow: 0 4px 4px;
+    border-radius: 5px;
+    margin-top: 20%;
+    padding: 1rem;
+    background-color: yellowgreen;
+    margin-bottom: 20px;
+  }
+}
